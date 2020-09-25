@@ -9,7 +9,7 @@
     --secondary-color:#A57355;
 }
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 /*End General style*/
 
@@ -29,5 +29,26 @@ header nav ul li a{
 }header nav ul li a:hover{
     color:var(--secondary-color) !important;
 }
-
 /* End Header */
+
+/* Slide */
+.slide .carousel-inner .carousel-item{
+   height: 100vh;
+}
+.slide .carousel-caption{
+padding-bottom: 300px;
+}
+.slide .carousel-caption h5{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    background-color: white;
+    padding: 20px;
+    }
+.slide .carousel-caption p{
+        font-size: 25px;
+        font-weight: 700;
+        color: var(--main-color);
+        
+        }
+/* End Slide */
