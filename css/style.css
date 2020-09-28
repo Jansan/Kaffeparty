@@ -70,3 +70,19 @@ footer a:hover{
     color: var(--main-color);
   }
 /* End Footer */
+
+/* Produkter */
+.coffee-party .text-primary {
+    color: var(--secondary-color) !important;
+}
+.coffee-party .btn-primary{
+    background-color: var(--secondary-color);
+    border: none;
+}
+.coffee-party .btn-primary:hover{
+    background-color: var(--main-color);
+    
+}
+/* End Produkter */
+
+
