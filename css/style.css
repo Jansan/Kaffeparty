@@ -52,3 +52,21 @@ padding-bottom: 300px;
         
         }
 /* End Slide */
+/* Why us */
+.why-us .bg-dark{
+    background-image: url(/img/cafe.jpg);
+    background-color: var(--secondary-color);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+/* End Why us */
+/* Footer */
+footer a{
+  color: var(--secondary-color);
+}
+footer a:hover{
+    color: var(--main-color);
+  }
+/* End Footer */
