@@ -17,6 +17,7 @@ body{
 header nav{
 background-color: var(--main-color);
 }
+
 header nav .navbar-brand{
     font-size: 25px !important;
     font-weight: bold;
@@ -26,7 +27,11 @@ header nav .navbar-brand span{
 }
 header nav ul li a{
     color: white !important;
-}header nav ul li a:hover{
+}
+.active{
+    color: var(--secondary-color) !important;
+    }
+header nav ul li a:hover{
     color:var(--secondary-color) !important;
 }
 /* End Header */
